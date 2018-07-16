@@ -1,5 +1,5 @@
 .container{
-	
+	margin-top: 18%;
 	text-align: center
 }
 .funcion{
@@ -8,6 +8,10 @@
 
 .x{
 	margin-top: 2%;
+}
+
+#root{
+	font-size: 35px;
 }
 
 input[type=number]::-webkit-inner-spin-button, 
