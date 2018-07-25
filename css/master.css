@@ -1,6 +1,20 @@
+/*GENERAL MENU*/
+
+/*Lo siguiente es para que no aparezcan las flechas en los input numericos*/
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+
 h2 {
 	text-align: center;
 	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.btnFont{
+	text-align: center;
+	color: black;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -22,11 +36,35 @@ a:hover {
 .container {
 	text-align: center;
     margin-top: 12%;
-    padding: 2%;
+	padding: 2%;
+	width: 600px;
 }
 
-.funcion{
+
+
+.lineal, .denominador, .raiz {
+	border: 1px solid black;
+	padding: 5%;
+    border-radius: 50%;
+	margin-top: 4%;
+	background-color: cornsilk;
+}
+
+/*SEGUNDA FUNCION - CON DENOMINADOR*/
+
+.containerDenominador {
+		text-align: center;
+		margin-top: 12%;
+		padding: 2%;
+}
+
+.funcionDenominador{
 	margin-top: 2%;
+}
+
+.denominador {
+	padding: 8% 3%;
+	margin-left: 6%;
 }
 
 .x{
@@ -37,31 +75,9 @@ a:hover {
 	font-size: 35px;
 }
 
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-}
 
-.back {
-	border-radius: 100%;
-	background-color: red;
-	padding: 1.8% 1%;
-	margin: 4px 2px;
-	display: table;
-}
 
-.lineal, .denominador, .raiz {
-	border: 1px solid black;
-	padding: 5%;
-    border-radius: 50%;
-	margin-top: 4%;
-	background-color: cornsilk;
-}
-
-.denominador {
-	padding: 6.0% 5%;
-	margin-left: 6%;
-}
+ /* TERCERA FUNCION - RAIZ*/
 
 .raiz {
 	margin-left: 6%;
